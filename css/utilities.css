@@ -1,0 +1,25 @@
+@import url('https://fonts.googleapis.com/css2?family=Racing+Sans+One&display=swap');
+
+/* anchor, text style */
+a {
+	text-decoration: none;
+}
+
+img {
+	width: 100%;
+}
+
+.btn {
+    border-color: #cb0039!important;
+    border: 1px solid;
+    border-radius: 4px;
+    font-family: "Racing Sans One";
+    background-color: #cb0039;
+    color: #fff;
+    border-bottom: 0;
+    border-radius: 4px!important;
+}
+
+.section-padding {
+	padding: 0 80px;
+}
