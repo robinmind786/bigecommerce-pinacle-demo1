@@ -1,8 +1,8 @@
 @media only screen and (max-width: 600px) {
 	.container {
 	  width: 100%;
-	  padding-right: 15px;
-	  padding-left: 15px;
+	  padding-right: 6px;
+	  padding-left: 6px;
 	  margin-right: auto;
 	  margin-left: auto;
 	}

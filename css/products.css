@@ -1,0 +1,222 @@
+.products {
+	padding: 30px 0;
+}
+
+.products .products-category {
+	width: 100%;
+}
+
+.products .products-category .category-link li {
+	list-style: none;
+	white-space: nowrap;
+	background: var(--gray-color);
+	margin: 5px 0;
+	padding: 10px;
+	border-radius: 6px;
+}
+
+.products .products-category .category-link li a {
+	font-size: 13px;
+	font-weight: 700;
+	color: var(--dark-color);
+	transition: all .3s ease;
+}
+
+.products .products-category .category-link li a:hover {
+	color: var(--danger-color);
+}
+
+.products .category-item {
+	width: 100%;
+	padding: 0 25px;
+}
+
+
+.products .category-item .category-item-content .category-img img {
+	border-radius: 10px;
+	width: 100%;
+	transition: all .5s ease;
+}
+
+.products .category-item .category-item-content .category-img img:hover {
+	-ms-transform: scale(1.1); 
+  	-webkit-transform: scale(1.1);
+    transform: scale(1.1); 
+    border-radius: 10px;
+}
+
+.products .category-item .category-item-content {
+	text-align: center;
+	overflow: hidden;
+}
+
+.products .category-item .category-item-content h3 {
+	font-family: "Racing Sans One";
+	font-size: 16px;
+	font-weight: 400;
+	transition: all .3s ease;
+	text-transform: uppercase;
+	color: var(--dark-color);
+}
+
+.products .category-item .category-item-content h3:hover {
+	color: var(--danger-color);
+}
+
+
+@media only screen and (max-width: 768px) {
+	.products .products-category {
+		display: none;
+	}
+	.products .category-item {
+		width: 100%;
+		padding: 0 0;
+	}
+
+	.brand .products-category {
+		display: none;
+	}
+
+}
+
+.card {
+	padding: 40px 0;
+}
+
+.card .card-header img {
+	width: 100%;
+}
+
+.card .card-header {
+	border-bottom: 1px solid var(--gray-color);
+}
+
+
+
+.card .card-header:hover {
+	cursor: pointer;
+}
+
+.card .card-header .card-img {
+	position: relative;
+}
+
+.card .card-header .card-img:hover .card-overlay,
+.card .card-header .card-img:hover .view  {
+	display: block;
+}
+
+
+.card .card-header .card-img .card-overlay {
+	position: absolute;
+	top: 0;
+	left: 0;
+	right: 0;
+	bottom: 0;
+	display: none;
+}
+
+.card .card-header a {
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+    white-space: nowrap;
+    background: var(--normal-color);
+    color: var(--dark-color);
+    font-weight: 400;
+    width: 70%;
+    text-align: center;
+    font-family: "Racing Sans One", Arial, Helvetica, sans-serif;
+    font-size: 15px;
+    border-radius: 30px;
+    transition: all .3s ease;
+    display: none;
+}
+
+.card .card-header a:hover {
+	background: var(--danger-color);
+	color: var(--normal-color);
+}
+
+.card .card-body {
+	margin-top: 5px;
+}
+
+.card .card-body .card-title a {
+	font-size: 14px;
+	font-weight: 700;
+	color: var(--dark-color);
+	line-height: 17.5px;
+	transition: all .4s ease;
+}
+
+.card .card-body .card-title a:hover {
+	color: var(--danger-color);
+}
+
+.card .card-body .card-review {
+	margin-top: 16px;
+}
+
+.card .card-body .fa {
+  font-size: 16px;
+}
+
+.card .card-body .checked {
+  color: var(--danger-color);
+}
+
+.card .card-body .card-price {
+	margin-top: 5px;
+	display: flex;
+	font-family: "Racing Sans One";
+}
+
+.card .card-body .card-price .main-price {
+	font-weight: 300;
+	color: #ccc;
+	font-size: 15px;
+}
+
+.card .card-body .card-price .discount-price {
+	margin-left: 6px;
+	font-weight: 300;
+	font-size: 16px;
+}
+
+.card .card-body .card-btn {
+	width: 100%;
+	margin-top: 5px;
+	text-align: center;
+}
+
+.card .card-body .card-btn a {
+	background: var(--gray-color);
+	font-size: 12px;
+	font-weight: 400;
+	padding: 7px 50px;
+	width: 100%;
+	color: var(--dark-color);
+	font-family: "Racing Sans One";
+	text-transform: uppercase;
+	white-space: nowrap;
+	transition: all .4s ease;
+	border-radius: 5px;
+}
+
+.card .card-body .card-btn a:hover {
+	background: var(--danger-color);
+	color: var(--normal-color);
+}
+
+.card .card-info {
+	border: 1px solid var(--gray-color);
+	font-family: "Racing Sans One";
+	font-weight: 400;
+	padding: 4px 10px;
+	margin-bottom: 10px;
+	border-radius: 5px;
+	color: var(--danger-color);
+}
+
